@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div class="container">
       <header>Buyer Information Form</header>
       <div class="progress-bar">
@@ -45,11 +46,11 @@
             <div class="title">Basic Info:</div>
             <div class="field">
               <div class="label">First Name</div>
-              <input type="text" name="first name" />
+              <input type="text" name="first name" required />
             </div>
             <div class="field">
               <div class="label">Last Name</div>
-              <input type="text" name="last name" />
+              <input type="text" name="last name" required />
             </div>
             <div class="field">
               <button class="firstNext next">Next</button>
@@ -59,11 +60,11 @@
             <div class="title">Contact Info:</div>
             <div class="field">
               <div class="label">Email Address</div>
-              <input type="email" name="Email " />
+              <input type="email" name="Email " required />
             </div>
             <div class="field">
               <div class="label">Phone Number</div>
-              <input type="tel" name="phone number"/>
+              <input type="tel" name="phone number" required/>
             </div>
             <div class="field btns">
               <button class="prev-1 prev">Previous</button>
@@ -75,12 +76,12 @@
             <div class="title">Payment Method</div>
             <div class="field">
               <div class="label">UPI ID</div>
-              <input type="email" name="upi" />
+              <input type="email" name="upi" required />
             </div>
             <div class="field">
               <div class="label">Password</div>
               <input
-                type="password" name=" upi pass"
+                type="password" name=" upi pass" required
               />
             </div>
             <div class="field btns">
@@ -93,11 +94,11 @@
             <div class="title">Login Details:</div>
             <div class="field">
               <div class="label">Username</div>
-              <input type="text" name="acc name" />
+              <input type="text" name="acc name"  required />
             </div>
             <div class="field">
               <div class="label">Password</div>
-              <input type="password" name="acc pass"/>
+              <input type="password" name="acc pass" required/>
             </div>
             <div class="field btns">
               <button class="prev-3 prev">Previous</button>
